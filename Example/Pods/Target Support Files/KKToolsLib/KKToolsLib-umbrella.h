@@ -11,11 +11,17 @@
 #endif
 
 #import "AAKKToolsLib.h"
-#import "AppLanguageModel.h"
 #import "KeyChainManager.h"
 #import "UUIDManager.h"
 #import "KKLibObjectProperty.h"
 #import "KKLibTools.h"
+#import "AdvertisementModel.h"
+#import "AppLanguageModel.h"
+#import "AppProductsModel.h"
+#import "AppRecordModel.h"
+#import "ConfigInitModel.h"
+#import "CurrentVipModel.h"
+#import "LogEventModel.h"
 #import "NSBundle+Language.h"
 #import "AlertActionPopView.h"
 #import "AlertViewManager.h"
