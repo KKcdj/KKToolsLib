@@ -17,7 +17,7 @@
 #ifndef AAKKToolsLib_h
 #define AAKKToolsLib_h
 
-#Import "KKLibObjectProperty.h"
+#import "KKLibObjectProperty.h"
 
 
 
