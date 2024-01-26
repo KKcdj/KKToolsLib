@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'KKToolsLib_Example' do
   pod 'KKToolsLib', :path => '../'
+  pod 'ZBNetworking', :git => 'https://github.com/Suzhibin/ZBNetworking.git'
 
   target 'KKToolsLib_Tests' do
     inherit! :search_paths
