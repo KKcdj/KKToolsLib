@@ -55,7 +55,7 @@ s.source_files = 'KKToolsLib/Classes/**/*'# 库的源码，需要明确指定，
 # s.dependency 'JXCategoryView'
 # s.dependency 'EAIntroView'
 # s.dependency 'SMPageControl'
-# s.dependency 'Realm'
+ s.dependency 'Realm'
 # s.dependency 'XYIAPKit'
 # s.dependency 'XYIAPKit/iTunesReceiptVerify'
 # s.dependency 'TZImagePickerController'

@@ -17,9 +17,13 @@ PODS:
   - KKToolsLib (0.0.1):
     - MBProgressHUD
     - MyLayout
+    - Realm
     - YYKit
   - MBProgressHUD (1.2.0)
   - MyLayout (1.9.10)
+  - Realm (10.39.1):
+    - Realm/Headers (= 10.39.1)
+  - Realm/Headers (10.39.1)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -35,6 +39,7 @@ SPEC REPOS:
     - AFNetworking
     - MBProgressHUD
     - MyLayout
+    - Realm
     - YYKit
 
 EXTERNAL SOURCES:
@@ -50,9 +55,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  KKToolsLib: 51e6dca0957a33ba7ff7870e10cd4a5651a6279f
+  KKToolsLib: 294755935a4dc7d12a0986af42e707cd5a6f0b29
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MyLayout: 39ee012bd780936c973bdc5d8ce0f84e3de489d7
+  Realm: 1f3157edf145f4d9036765ab550c8cb18f62b700
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZBNetworking: 455aabd907f59adc97988b9241a031937ca102bc
 

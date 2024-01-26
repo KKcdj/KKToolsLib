@@ -11,6 +11,7 @@
 #endif
 
 #import "AAKKToolsLib.h"
+#import "AppLanguageModel.h"
 #import "KeyChainManager.h"
 #import "UUIDManager.h"
 #import "KKLibObjectProperty.h"
