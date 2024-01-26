@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "KKToolsLib/Classes/**/*"
+  "source_files": "KKToolsLib/Classes/**/*",
+  "dependencies": {
+    "YYKit": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "MyLayout": [
+
+    ]
+  }
 }

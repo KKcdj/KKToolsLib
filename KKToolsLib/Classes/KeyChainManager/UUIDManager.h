@@ -1,8 +1,8 @@
 //
-//  AAKKToolsLib.h
-//  KKToolsLib
+//  UUIDManager.h
+//  FileMusic
 //  
-//  Created by 陈德军 on 2024/1/26.
+//  Created by 陈德军 on 2024/1/23.
 //  Copyright ©合肥维方科技有限公司. All rights reserved.
 //  
 //                      ____   ____      __
@@ -14,21 +14,13 @@
 //
     
 
-#ifndef AAKKToolsLib_h
-#define AAKKToolsLib_h
+#import <Foundation/Foundation.h>
 
-#import "KKLibObjectProperty.h"
-#import "Toast.h"
-#import "UUIDManager.h"
-#import "WKAppManager.h"
-#import "UIColor+Hex.h"
-#import "KKLibTools.h"
+NS_ASSUME_NONNULL_BEGIN
 
+@interface UUIDManager : NSObject
+// 获取设备唯一标识
++ (NSString *)getDeviceID;
+@end
 
-
-
-
-
-
-
-#endif /* AAKKToolsLib_h */
+NS_ASSUME_NONNULL_END

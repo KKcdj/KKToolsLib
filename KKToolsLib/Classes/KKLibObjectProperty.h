@@ -45,21 +45,21 @@
 
 //MARK: - 屏幕尺寸相关
 /// 顶部安全区高度
-#define KK_topSafeDistance [KKTools kk_safeDistanceTop]
+#define KK_topSafeDistance [KKLibTools kk_safeDistanceTop]
 /// 底部安全区高度
-#define KK_bottomSafeDistance [KKTools kk_safeDistanceBottom]
+#define KK_bottomSafeDistance [KKLibTools kk_safeDistanceBottom]
 /// 顶部状态栏高度（包括安全区）
-#define KK_statusBarHeight [KKTools kk_statusBarHeight]
+#define KK_statusBarHeight [KKLibTools kk_statusBarHeight]
 /// 导航栏高度
-#define KK_navigationBarHeight [KKTools kk_navigationBarHeight]
+#define KK_navigationBarHeight [KKLibTools kk_navigationBarHeight]
 /// 状态栏+导航栏的高度
-#define KK_navigationFullHeight [KKTools kk_navigationFullHeight]
+#define KK_navigationFullHeight [KKLibTools kk_navigationFullHeight]
 /// 底部导航栏高度
-#define KK_tabBarHeight [KKTools kk_tabBarHeight]
+#define KK_tabBarHeight [KKLibTools kk_tabBarHeight]
 /// 底部导航栏高度（包括安全区）
-#define KK_tabBarFullHeight [KKTools kk_tabBarFullHeight]
+#define KK_tabBarFullHeight [KKLibTools kk_tabBarFullHeight]
 
-#define KK_returnAppWindow [KKTools returnAppWindow]
+#define KK_returnAppWindow [KKLibTools returnAppWindow]
 
 //底部横幅广告高度
 #define KK_BannerAd_Height  50

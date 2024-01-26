@@ -14,7 +14,15 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - KKToolsLib (0.0.1)
+  - KKToolsLib (0.0.1):
+    - MBProgressHUD
+    - MyLayout
+    - YYKit
+  - MBProgressHUD (1.2.0)
+  - MyLayout (1.9.10)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
   - ZBNetworking (1.0.3):
     - AFNetworking
 
@@ -25,6 +33,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - MBProgressHUD
+    - MyLayout
+    - YYKit
 
 EXTERNAL SOURCES:
   KKToolsLib:
@@ -39,7 +50,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  KKToolsLib: bd4dd19a7ca2ea1dafbcf8d0dafa0344bec7058e
+  KKToolsLib: 51e6dca0957a33ba7ff7870e10cd4a5651a6279f
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MyLayout: 39ee012bd780936c973bdc5d8ce0f84e3de489d7
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZBNetworking: 455aabd907f59adc97988b9241a031937ca102bc
 
 PODFILE CHECKSUM: e3d60e531b71964eb17ca4f70cce76d96a5753dc

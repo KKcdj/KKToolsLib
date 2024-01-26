@@ -7,6 +7,10 @@
 //
 
 #import "KKAppDelegate.h"
+#import <AAKKToolsLib.h>
+
+
+
 @implementation KKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

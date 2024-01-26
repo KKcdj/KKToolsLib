@@ -40,14 +40,15 @@ s.source_files = 'KKToolsLib/Classes/**/*'# 库的源码，需要明确指定，
 # 开放的公共头
 # s.frameworks = 'UIKit', 'MapKit'# 私有库需要依赖系统的哪些framework，需要这里明确指定
 # 私有库如果需要依赖其他第三方pod，需要这里指定，多个时需要同样格式指定多个
-# s.dependency 'YYKit'
+ s.dependency 'YYKit'
+ s.dependency 'MBProgressHUD'
+ s.dependency 'MyLayout'
+  
 # s.dependency 'Masonry'
 # s.dependency 'SDWebImage'
-# s.dependency 'MyLayout'
 # s.dependency 'WRNavigationBar'
 # s.dependency 'AFNetworking'
 # s.dependency 'MJRefresh'
-# s.dependency 'MBProgressHUD'
 # s.dependency 'MJExtension'
 # s.dependency 'IQKeyboardManager'
 # s.dependency 'DZNEmptyDataSet'
