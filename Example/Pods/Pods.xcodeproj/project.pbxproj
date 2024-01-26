@@ -6,73 +6,206 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		348533536CAB1F4D0EBF1626C6F204C4 /* KKToolsLib */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = C2C28C63B6ADF7AAA451DD415BD40357 /* Build configuration list for PBXAggregateTarget "KKToolsLib" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = KKToolsLib;
-			productName = KKToolsLib;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		01BC998EF7E39EA3183CD5B6C55547AE /* KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FC57DF58A6B1982F56A908D710CDEC /* KKTools.m */; };
+		0879D48ECA4FE0A9C34371CFAA375D42 /* UUIDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D26EB047A579E250267F29AD2A3E2549 /* UUIDManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098450BFEA7A2E652BDD10D1EE910786 /* AlertActionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2074A3E1917459026C4AE128C0CCF5E /* AlertActionPopView.m */; };
+		0A361142D41F4A41374257857B2EBF5A /* MyNetWorkManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B116EB20AEB59763352E9EF029C881 /* MyNetWorkManagement.m */; };
+		0B0C5B2C362C16D07040264C8DE85412 /* AppLanguageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AD89BBEC2443D61984603456A27C56 /* AppLanguageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF36B75C93224DBEA38D1DB0E550D49 /* KKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07136E11CAD4664896C711BBAC3F3A98 /* KKTabBarController.m */; };
+		12D5F16B2501DB507B532FE968050D46 /* MusicListTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0525424ED6136AC1E765E56B69476FC7 /* MusicListTypeModel.m */; };
+		1347F7C8FDCBEB16A9D4B5D2D2E2AB25 /* NSJSONSerialization+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE62F9AA5B6C86BF77A3D311582F40 /* NSJSONSerialization+JSON.m */; };
+		17D3A9D71EA3517E18AC1F16DC1C8CB6 /* RootPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6224943BB8262AC3693EE9E701BCE673 /* RootPopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18DB5D47BC31B9CA4ED2B4ACC76166F3 /* UUIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F922AE908599F6F2702B5B8D025B32C1 /* UUIDManager.m */; };
+		1D7ECFE9B96EEE7D3F1DBA2F879D30F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1EE33D80518F92A0F4794831548C3B06 /* HttpUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5CC7EBBF7C90FE4B7E44FB87F57318 /* HttpUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20FEECD1423652F4EA67DBD2174FA851 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0E14665494EDD381B3940D82B55568 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E815C1B2EADF5E314168A663CA520A /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3369EB419D5F7CC56BFDA79FF58BA363 /* KKViewController.m */; };
+		3AA97905D9AF07D3761E972FC3CB3C07 /* KKToolsLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C232CE4622354876759FD44CB509806 /* KKToolsLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAF495811ED348F4C0205403326F456 /* AdvertisementModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A30B47D0D0B352BB962CEAEE24AE6E /* AdvertisementModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44CDA71D1B007C272530ECEB68F694F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5CD4099C0FC1BC42D7E5F1D961FF1B78 /* Pods-KKToolsLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABE2426090DE840B1F195D0CACD32E /* Pods-KKToolsLib_Tests-dummy.m */; };
-		60665598EACEF4A373D3C499D5858D07 /* Pods-KKToolsLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0657D1A305D28D76BD885A62E24299D0 /* Pods-KKToolsLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44F1E23DAA19ECD87E3C5D6FD73B7CF1 /* WKAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF93A0460136043E25A5BD83F57CF7A /* WKAppManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46FE173C4573C2F7AD04C27B2E2F6B5D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 468923914A4F0CF34C32C521BD5DE409 /* UIColor+Hex.m */; };
+		4F9F03739015D16FFA3B2552860D6521 /* KKNetworkAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = D068D5249C1659C392F04FD7921072F7 /* KKNetworkAccessibility.m */; };
+		50784993D15F23BBE9DB8865A2890606 /* ConfigInitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD02233AB3C2BBF3F73D7132CF8C169 /* ConfigInitModel.m */; };
+		5184B0D5CBDEC96893CE3472B5606408 /* LogEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB2F82F9E7B519EE70C3D491C9BE2D1 /* LogEventModel.m */; };
+		57FA0869BFE2D3ADF1884B327AFCF357 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA7D4C4D06D29A6FE9977DF329E50E /* Toast.m */; };
+		584B1D713B2A1175114B4AF81D9915B5 /* AppProductsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D34AF758E08FE859B6C824997AB6 /* AppProductsModel.m */; };
+		5A09C2EB9FF8EA133508B2205F2824A0 /* MyNetWorkManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED93D058B5E1C7A34FC66B8CC839B0C /* MyNetWorkManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CD4099C0FC1BC42D7E5F1D961FF1B78 /* Pods-KKToolsLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D232984D4BD9FADC0D564944CAFCB9 /* Pods-KKToolsLib_Tests-dummy.m */; };
+		5F9138A1C97B9714D6E86F6DA4EA7E1A /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E564494682C1A1280D2689E8A5D71378 /* MusicModel.m */; };
+		60665598EACEF4A373D3C499D5858D07 /* Pods-KKToolsLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F58C8869F4E13EF3BDA3B31B229F021 /* Pods-KKToolsLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61079C3E4BF5040459903AFB0C6A305F /* NSBundle+Language.h in Headers */ = {isa = PBXBuildFile; fileRef = C6528D9A6D844009E2B5F204A823F9DB /* NSBundle+Language.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A57EC2D46B335297025DCC3B2A3944 /* DatabaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A234FC0341EE6A8B9B2904C1FF33844 /* DatabaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65762408AB07DB63FC389CB04B8FC45B /* KKNetworkAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = E24C6078FDEB08D74904367DECA4A420 /* KKNetworkAccessibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65967EEE26ABDC0F642BFACC30621652 /* KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC307D90141F30A7328AA219FEBE2BD /* KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684BCA6D70D3F497DF52D5A01330E867 /* KeyChainManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F73AF93A7A3078EF77B9A548D3D4578C /* KeyChainManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BC920804ED282A10BBA2EB2471B1F6 /* AppRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BE274D60E017E81914CF95CD976F /* AppRoutes.m */; };
+		7676328326507A53DB0348EFA9CAE90C /* AppRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E39904654B0C05F13CB72B2DEC66E7 /* AppRecordModel.m */; };
+		77034CA8756290125ADCFD91E73BC963 /* KKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767BB1273DF7825BD3115F7C007F82DF /* KKNavigationController.m */; };
+		7AC012A8D0892F0EA946B7F01E900B0F /* basicdata.json in Sources */ = {isa = PBXBuildFile; fileRef = 6561BEE734B8CDA2882B70B40CFF2D50 /* basicdata.json */; };
+		7C3D21E7388F34E9E27562B7339B7847 /* AdvertisementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40E89756FBB0C4348C32FF30D7DDAC /* AdvertisementModel.m */; };
+		7EC26B5EAF8947EF9C8100197BFD5AB1 /* AlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B78C0563F9D3CB08E03981D2211784 /* AlertViewManager.m */; };
+		7F128682444D068FC7DCB128F2BA7781 /* AlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E31A1C800D7218B12A998581A323F /* AlertViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818F9F719783632AD97C41A7A30A340D /* HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B801F0B97397F889783AC174BA377F /* HttpUtils.m */; };
+		85B5818BA46FD98E244FC2434A148CF0 /* AlertActionPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C971914548BEA8791C82C4EF20B9243 /* AlertActionPopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F591615F6BAF0F1905D3F21210DF01 /* KeyChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45BEE5B20DAB1DE55D095BBC9150504 /* KeyChainManager.m */; };
+		8FF61499D7BE7D805BF366B614E22418 /* DatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F2724F9AD448945A4B2A05D80A577E7A /* DatabaseUtils.m */; };
+		93DB9CFC9BDE1F1BF0DA54146B52BE58 /* KKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB06AD50DA2D00950788F22D29E814B /* KKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9539C3697B7B330BACE99BFB47AE20B7 /* KKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3936330FF1EE8638C79D04A8750996 /* KKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F69AF2BF3D266E36D2D8AA0D746FF4 /* AppLanguageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 985B7F0F2F1EAF1C09E2E38B6C0BF5E4 /* AppLanguageModel.m */; };
+		98F654795DB2E9F81DBF136FCE0F0786 /* LogEventModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D823E59DF0EB419770A44711EBB9974E /* LogEventModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B16E1AE1913FD8CEF215C7A6DF46FB2 /* MusicListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC018E0F32F3BB5D39A1ADDDF3A3124 /* MusicListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B52A1C061899EF08B4ECD8B2024166D /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35EECE6DAFD2565D85BA6AE878D36C /* NSBundle+Language.m */; };
+		AC9C2310B09AA80C90BB77F8CA6F6C14 /* MusicListTypeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 766DD77D64358371A6F7B77D76B08FD9 /* MusicListTypeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0143323ED1CC0AF1D719C8D71B4DA9E /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ECA121D8375F78F2E3601A669BE9D4 /* NSString+AES.m */; };
+		B40B6DE8172FFD3DF01E254C17132B46 /* WKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D71BADAB1EAF777A2021B747D5F179C9 /* WKAppManager.m */; };
+		B467532EF14DAFA48D55B62B2D842D0D /* KKToolsLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEC5DB892C3E08057D57E46621063B7 /* KKToolsLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA64ED3DD4870F500CF71B720D7B90EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EB3803C089B54C87DC33A1C7EC5B377C /* Pods-KKToolsLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BBDBD698684C0E63C6851217143855 /* Pods-KKToolsLib_Example-dummy.m */; };
-		F5917CA454AB253B62206E7D1DFD1086 /* Pods-KKToolsLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EF773497C9F249214022EBF77110D9 /* Pods-KKToolsLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFEF81402002C2ACDB5CEC1B7CE8ECAF /* AppRecordModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E77BD167AD5ECDDED8F430CF8201324 /* AppRecordModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2251C944116C65FCF4B0D9DC90BAC48 /* AppProductsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FC18D6CCA8137806E6F74CFD08E68370 /* AppProductsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6131D9B293F9F025C4755CF087C4FD0 /* AppRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = B01939C52F33F5590AAF6EAA936D1C72 /* AppRoutes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75CD3CE1C1C9730BEB2D1B375AE2B6A /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = C459E1D992692CD2341F113D2CF531AF /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C061BE0F050E758FC7C06E00B80A68 /* CurrentVipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB270E06B2277DDFCE2CC8446C09DE /* CurrentVipModel.m */; };
+		C88574334732C8B8A37E6CCB37B52714 /* RootPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D963AE4C752428FB0658AAF8DFC70E /* RootPopView.m */; };
+		CBEA634DB21AE05ADE4D3C7793AC10FC /* ObjectProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AD394F8D6562EA3449F3365060CF63 /* ObjectProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1B918D8EFB135F92A7FDC589D1B2942 /* basicdata_Release.json in Sources */ = {isa = PBXBuildFile; fileRef = 9E19D8A33C86430EB349CF01730E015E /* basicdata_Release.json */; };
+		D743E97DB251370CEE6459EC008AA985 /* MusicModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 162B0190BA3299A4FE702C9FD1A4F04C /* MusicModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCBDD6F922C3A529FB089EF2F1B0A021 /* KKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F94FD872FE9DCDB775EAEB9DE3A4753 /* KKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CE59FA01085B2D381AA6DDBC001D1A /* NSJSONSerialization+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 15674F879FE11C7FDC50ABE57D69CAB5 /* NSJSONSerialization+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA3966E3A96E9FC5E347FC3A25DDDB56 /* CurrentVipModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8930343A8B9B18D868C7B135B941F54E /* CurrentVipModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA3CB97A8928EFAE52B072B59B43657D /* KKTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEDFA5C23076921DECF5878ED415F0C /* KKTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3803C089B54C87DC33A1C7EC5B377C /* Pods-KKToolsLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AADAD4B3BBC5D2719E02368CFEE40D4 /* Pods-KKToolsLib_Example-dummy.m */; };
+		ED406371781C8A4CE077B8715DE7AB9F /* KKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AF7DF8BDDE3C4D7D8B16D72917390 /* KKTimer.m */; };
+		EF64B187A1962A0DDC9AB5854A5E1B9E /* MusicListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F8304200A2E1C4AFBE5FBD357C772 /* MusicListModel.m */; };
+		EFC8DC052C63E9E5AED93307A5604C53 /* ConfigInitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8810B763060BF119CA709E9AC5828BE2 /* ConfigInitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F088E54A47077E79AC834444BC40D2F9 /* KKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C974020DF8103667B23702A02C2F70C /* KKAudioPlayer.m */; };
+		F5917CA454AB253B62206E7D1DFD1086 /* Pods-KKToolsLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D036C1BFC5A06CDE5EEC9E64366207 /* Pods-KKToolsLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA454AB5761530D42CA17B0480526F6A /* KKTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E025B2122E63A2AC533341828854F0E /* KKTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC31963530F7A6714DE5F7E1266CB90F /* NSString+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = C243AC094B703955ACB3C88B03B89705 /* NSString+AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE43F2A8A70783AD3CFE8B03DB665CF /* Environment.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCF2EF415C541D3B33E2DEEADF7F381 /* Environment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFC04FFC99CB9833460AC2BB1D50D4FA /* KKToolsLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D61EE71054DA18A2FCED77FA3FD09598 /* KKToolsLib-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6FABE65BDFCAE1AF3802FF407E810345 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 348533536CAB1F4D0EBF1626C6F204C4;
-			remoteInfo = KKToolsLib;
-		};
-		BC2B3ACE7044AC4A83D457BE19654C7B /* PBXContainerItemProxy */ = {
+		D970039B54C51ACD8FFB12BCB2575415 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9E694C3F12EAC60D5003DEF9F8FAE59;
 			remoteInfo = "Pods-KKToolsLib_Example";
 		};
+		E68BFE13D8DA9C2ACD76C1F92633A9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 348533536CAB1F4D0EBF1626C6F204C4;
+			remoteInfo = KKToolsLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0657D1A305D28D76BD885A62E24299D0 /* Pods-KKToolsLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKToolsLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0AC492337C5A1EDD23346FF1FB59A9EC /* Pods-KKToolsLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E42B76EADC3066DC75DD7CA2361BE8E /* Pods-KKToolsLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1E582CC1879D4A0E8FA4235CAB12D7D0 /* Pods-KKToolsLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3324E925243597D7BD01FF7DC0116208 /* Pods-KKToolsLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKToolsLib_Tests.modulemap"; sourceTree = "<group>"; };
-		3862C519571F9C42329CC1E52D73EE51 /* Pods-KKToolsLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3BEE7E7347BD76FFDE063BAD478839EB /* Pods-KKToolsLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKToolsLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C862D281F2E1F1091B35F5CCE935E14 /* KKToolsLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.debug.xcconfig; sourceTree = "<group>"; };
-		5249FE6C3C1887779DD2778360265E24 /* Pods-KKToolsLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKToolsLib_Example.modulemap"; sourceTree = "<group>"; };
-		55B671A6CA2DFD33BDC8BE5E449C3018 /* Pods-KKToolsLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKToolsLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		00A66E7EBCBD4D1C7250620011CD326B /* KKToolsLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKToolsLib-Info.plist"; sourceTree = "<group>"; };
+		0525424ED6136AC1E765E56B69476FC7 /* MusicListTypeModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MusicListTypeModel.m; sourceTree = "<group>"; };
+		0577F1D7383B06CFD07FE34FC751CB06 /* Pods-KKToolsLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		07136E11CAD4664896C711BBAC3F3A98 /* KKTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKTabBarController.m; sourceTree = "<group>"; };
+		0C71BABF2376FE644065D2AD0124A322 /* Pods-KKToolsLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKToolsLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C974020DF8103667B23702A02C2F70C /* KKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKAudioPlayer.m; sourceTree = "<group>"; };
+		0FB07D3F5C3A8B5835C7375CE032A845 /* KKToolsLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKToolsLib.modulemap; sourceTree = "<group>"; };
+		15674F879FE11C7FDC50ABE57D69CAB5 /* NSJSONSerialization+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+JSON.h"; sourceTree = "<group>"; };
+		162B0190BA3299A4FE702C9FD1A4F04C /* MusicModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		16EA7D4C4D06D29A6FE9977DF329E50E /* Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		1B8B3900D932D2032364BA2825B9DEB1 /* Pods-KKToolsLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BEE62F9AA5B6C86BF77A3D311582F40 /* NSJSONSerialization+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+JSON.m"; sourceTree = "<group>"; };
+		1C232CE4622354876759FD44CB509806 /* KKToolsLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKToolsLib.h; sourceTree = "<group>"; };
+		1C35EECE6DAFD2565D85BA6AE878D36C /* NSBundle+Language.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		1F94FD872FE9DCDB775EAEB9DE3A4753 /* KKNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKNavigationController.h; sourceTree = "<group>"; };
+		1FB06AD50DA2D00950788F22D29E814B /* KKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKAudioPlayer.h; sourceTree = "<group>"; };
+		21C074229F3A32C1F9131BD62BB5A1C6 /* Pods-KKToolsLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Example-Info.plist"; sourceTree = "<group>"; };
+		22E39904654B0C05F13CB72B2DEC66E7 /* AppRecordModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppRecordModel.m; sourceTree = "<group>"; };
+		256600E2BD9A62504974A9049D99F6E5 /* Pods-KKToolsLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKToolsLib_Example.modulemap"; sourceTree = "<group>"; };
+		29A30B47D0D0B352BB962CEAEE24AE6E /* AdvertisementModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdvertisementModel.h; sourceTree = "<group>"; };
+		2A234FC0341EE6A8B9B2904C1FF33844 /* DatabaseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DatabaseUtils.h; sourceTree = "<group>"; };
+		2C971914548BEA8791C82C4EF20B9243 /* AlertActionPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertActionPopView.h; sourceTree = "<group>"; };
+		2E025B2122E63A2AC533341828854F0E /* KKTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKTimer.h; sourceTree = "<group>"; };
+		2F3936330FF1EE8638C79D04A8750996 /* KKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
+		3369EB419D5F7CC56BFDA79FF58BA363 /* KKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
+		3451AC26654BBFE95D5586234533D004 /* KKToolsLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.release.xcconfig; sourceTree = "<group>"; };
+		3AADAD4B3BBC5D2719E02368CFEE40D4 /* Pods-KKToolsLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKToolsLib_Example-dummy.m"; sourceTree = "<group>"; };
+		3CEC5DB892C3E08057D57E46621063B7 /* KKToolsLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKToolsLib-umbrella.h"; sourceTree = "<group>"; };
+		3D5CC7EBBF7C90FE4B7E44FB87F57318 /* HttpUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HttpUtils.h; sourceTree = "<group>"; };
+		3E40E89756FBB0C4348C32FF30D7DDAC /* AdvertisementModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AdvertisementModel.m; sourceTree = "<group>"; };
+		3FB9D34AF758E08FE859B6C824997AB6 /* AppProductsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppProductsModel.m; sourceTree = "<group>"; };
+		405204E223388C40A21661CC9E4788AE /* KKToolsLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.debug.xcconfig; sourceTree = "<group>"; };
+		41D963AE4C752428FB0658AAF8DFC70E /* RootPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RootPopView.m; sourceTree = "<group>"; };
+		468923914A4F0CF34C32C521BD5DE409 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		47D3B9F65C7183418BD34CD7E3C1FFCD /* Pods-KKToolsLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C9C79738EF6387456C03D57C9708A77 /* Pods-KKToolsLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKToolsLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AF93A0460136043E25A5BD83F57CF7A /* WKAppManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKAppManager.h; sourceTree = "<group>"; };
+		5ED93D058B5E1C7A34FC66B8CC839B0C /* MyNetWorkManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyNetWorkManagement.h; sourceTree = "<group>"; };
+		5FB2F82F9E7B519EE70C3D491C9BE2D1 /* LogEventModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LogEventModel.m; sourceTree = "<group>"; };
+		6224943BB8262AC3693EE9E701BCE673 /* RootPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RootPopView.h; sourceTree = "<group>"; };
+		62D036C1BFC5A06CDE5EEC9E64366207 /* Pods-KKToolsLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKToolsLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		63FC57DF58A6B1982F56A908D710CDEC /* KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKTools.m; sourceTree = "<group>"; };
+		6561BEE734B8CDA2882B70B40CFF2D50 /* basicdata.json */ = {isa = PBXFileReference; includeInIndex = 1; path = basicdata.json; sourceTree = "<group>"; };
+		68DDD9832D10FA1EF7E7E1BC52854F9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F58C8869F4E13EF3BDA3B31B229F021 /* Pods-KKToolsLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKToolsLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		706DE611B6342E2F2EF126CE429AFBCC /* Pods-KKToolsLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKToolsLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76ABE2426090DE840B1F195D0CACD32E /* Pods-KKToolsLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKToolsLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		76F5F66FE980E41A805E31D7C9D76717 /* Pods-KKToolsLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7AB4155D66E540680BDA442F2629121C /* KKToolsLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.release.xcconfig; sourceTree = "<group>"; };
-		95173504CA633D83D56BE7982E2B68D5 /* AppLanguageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppLanguageModel.h; path = KKToolsLib/Classes/AppLanguageModel.h; sourceTree = "<group>"; };
-		95DA6E8D98458DBCB7E64CE934D4DA51 /* AdvertisementModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdvertisementModel.h; path = KKToolsLib/Classes/AdvertisementModel.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC50347515257050490BF6A612A5F4CC /* KKToolsLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKToolsLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		B74EA14AE0877AC7362885FAD230ACB3 /* Pods-KKToolsLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C2AD67D5CE757E8A943EBBB633DD39D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CB7F162658BB54A2E8C0D8F6AD2B7006 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D7BBDBD698684C0E63C6851217143855 /* Pods-KKToolsLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKToolsLib_Example-dummy.m"; sourceTree = "<group>"; };
+		7518A5F440250E712CF723EF36F28B3C /* Pods-KKToolsLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		752B5DDA193B76DF36FEB580FB992055 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		766DD77D64358371A6F7B77D76B08FD9 /* MusicListTypeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MusicListTypeModel.h; sourceTree = "<group>"; };
+		767BB1273DF7825BD3115F7C007F82DF /* KKNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKNavigationController.m; sourceTree = "<group>"; };
+		7E77BD167AD5ECDDED8F430CF8201324 /* AppRecordModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppRecordModel.h; sourceTree = "<group>"; };
+		7EC307D90141F30A7328AA219FEBE2BD /* KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKTools.h; sourceTree = "<group>"; };
+		7F2F8304200A2E1C4AFBE5FBD357C772 /* MusicListModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MusicListModel.m; sourceTree = "<group>"; };
+		8810B763060BF119CA709E9AC5828BE2 /* ConfigInitModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConfigInitModel.h; sourceTree = "<group>"; };
+		88B78C0563F9D3CB08E03981D2211784 /* AlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertViewManager.m; sourceTree = "<group>"; };
+		88D232984D4BD9FADC0D564944CAFCB9 /* Pods-KKToolsLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKToolsLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		8930343A8B9B18D868C7B135B941F54E /* CurrentVipModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CurrentVipModel.h; sourceTree = "<group>"; };
+		95A9BE274D60E017E81914CF95CD976F /* AppRoutes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppRoutes.m; sourceTree = "<group>"; };
+		95B801F0B97397F889783AC174BA377F /* HttpUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HttpUtils.m; sourceTree = "<group>"; };
+		985B7F0F2F1EAF1C09E2E38B6C0BF5E4 /* AppLanguageModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppLanguageModel.m; sourceTree = "<group>"; };
+		99ECA121D8375F78F2E3601A669BE9D4 /* NSString+AES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCB270E06B2277DDFCE2CC8446C09DE /* CurrentVipModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CurrentVipModel.m; sourceTree = "<group>"; };
+		9E19D8A33C86430EB349CF01730E015E /* basicdata_Release.json */ = {isa = PBXFileReference; includeInIndex = 1; path = basicdata_Release.json; sourceTree = "<group>"; };
+		9EF25BEA12F27A9F5B5DB70BDCE456CF /* KKToolsLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKToolsLib; path = KKToolsLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F7734E6974B42DABCC58F9589E4F11 /* Pods-KKToolsLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A45BEE5B20DAB1DE55D095BBC9150504 /* KeyChainManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KeyChainManager.m; sourceTree = "<group>"; };
+		AA0E14665494EDD381B3940D82B55568 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		B01939C52F33F5590AAF6EAA936D1C72 /* AppRoutes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppRoutes.h; sourceTree = "<group>"; };
+		B05A75BC4845DBC101E68A43EA514EF3 /* Pods-KKToolsLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKToolsLib_Tests.modulemap"; sourceTree = "<group>"; };
+		B2074A3E1917459026C4AE128C0CCF5E /* AlertActionPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertActionPopView.m; sourceTree = "<group>"; };
+		BAC018E0F32F3BB5D39A1ADDDF3A3124 /* MusicListModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MusicListModel.h; sourceTree = "<group>"; };
+		C243AC094B703955ACB3C88B03B89705 /* NSString+AES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		C459E1D992692CD2341F113D2CF531AF /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		C6528D9A6D844009E2B5F204A823F9DB /* NSBundle+Language.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		CDCF2EF415C541D3B33E2DEEADF7F381 /* Environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		CFD02233AB3C2BBF3F73D7132CF8C169 /* ConfigInitModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConfigInitModel.m; sourceTree = "<group>"; };
+		D068D5249C1659C392F04FD7921072F7 /* KKNetworkAccessibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKNetworkAccessibility.m; sourceTree = "<group>"; };
+		D26EB047A579E250267F29AD2A3E2549 /* UUIDManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUIDManager.h; sourceTree = "<group>"; };
+		D2AD89BBEC2443D61984603456A27C56 /* AppLanguageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppLanguageModel.h; sourceTree = "<group>"; };
+		D61EE71054DA18A2FCED77FA3FD09598 /* KKToolsLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKToolsLib-dummy.m"; sourceTree = "<group>"; };
+		D68E31A1C800D7218B12A998581A323F /* AlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertViewManager.h; sourceTree = "<group>"; };
+		D6AD394F8D6562EA3449F3365060CF63 /* ObjectProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		D71BADAB1EAF777A2021B747D5F179C9 /* WKAppManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKAppManager.m; sourceTree = "<group>"; };
+		D823E59DF0EB419770A44711EBB9974E /* LogEventModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LogEventModel.h; sourceTree = "<group>"; };
 		DB81B4D67EC042EFADB6AD0F9302B8A4 /* Pods-KKToolsLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKToolsLib_Example"; path = Pods_KKToolsLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1AD5D9F46873FDEC76D3B1E92F33FB2 /* Pods-KKToolsLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		DD3AF7DF8BDDE3C4D7D8B16D72917390 /* KKTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKTimer.m; sourceTree = "<group>"; };
+		DD58DF65EC2BDA70FEDEB2329DBFC01F /* KKToolsLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKToolsLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E060842AC06144FFBFE4FB199662AB66 /* KKToolsLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKToolsLib-prefix.pch"; sourceTree = "<group>"; };
+		E24C6078FDEB08D74904367DECA4A420 /* KKNetworkAccessibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKNetworkAccessibility.h; sourceTree = "<group>"; };
 		E41E9D31A615CDE110970C9B0457082E /* Pods-KKToolsLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKToolsLib_Tests"; path = Pods_KKToolsLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0EF773497C9F249214022EBF77110D9 /* Pods-KKToolsLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKToolsLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		F251EABBE1E98C64CAA0E0C2116715AD /* Pods-KKToolsLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Example-Info.plist"; sourceTree = "<group>"; };
+		E564494682C1A1280D2689E8A5D71378 /* MusicModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		E605A8CCB2C5D81613E7BE071130A299 /* Pods-KKToolsLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECEDFA5C23076921DECF5878ED415F0C /* KKTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKTabBarController.h; sourceTree = "<group>"; };
+		F0B116EB20AEB59763352E9EF029C881 /* MyNetWorkManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyNetWorkManagement.m; sourceTree = "<group>"; };
+		F2724F9AD448945A4B2A05D80A577E7A /* DatabaseUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DatabaseUtils.m; sourceTree = "<group>"; };
+		F73AF93A7A3078EF77B9A548D3D4578C /* KeyChainManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KeyChainManager.h; sourceTree = "<group>"; };
+		F922AE908599F6F2702B5B8D025B32C1 /* UUIDManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUIDManager.m; sourceTree = "<group>"; };
+		FC18D6CCA8137806E6F74CFD08E68370 /* AppProductsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppProductsModel.h; sourceTree = "<group>"; };
+		FC3B20EB5102BF4CD5B77297C753EA0A /* Pods-KKToolsLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKToolsLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,43 +225,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D79CA37F864E5478D0C7D476FCCBA216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ECFE9B96EEE7D3F1DBA2F879D30F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		335F73AA716BC36CE07558C4C7C92E5E /* Development Pods */ = {
+		0ED8C24AECF4EED496200DB350FBC23A /* KKToolsLib */ = {
 			isa = PBXGroup;
 			children = (
-				4748BCB7483C9C3B4B12BB2E7FE668F0 /* KKToolsLib */,
+				4F2E26BC20E8B3205E5D22DB50A8FA0F /* BaseClass */,
+				9285C8D16278B659BD593CB91C965BE6 /* LocalSouce */,
+				CBD7291B6C11E6DE3A4C416AD388DD97 /* Pod */,
+				17E809E588B58F6F4D1F0FA782811F81 /* PublicConfig */,
+				9B47DC99A16724F3E90D3C67F8FCD07E /* Support Files */,
+				5B2C1EE68B52476944DE7BB5133992DE /* ToolsSouce */,
+			);
+			name = KKToolsLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		17E809E588B58F6F4D1F0FA782811F81 /* PublicConfig */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF2EF415C541D3B33E2DEEADF7F381 /* Environment.h */,
+				1C232CE4622354876759FD44CB509806 /* KKToolsLib.h */,
+				D6AD394F8D6562EA3449F3365060CF63 /* ObjectProperty.h */,
+			);
+			name = PublicConfig;
+			path = KKToolsLib/Classes/PublicConfig;
+			sourceTree = "<group>";
+		};
+		2E15C0E8A9DAE0BF218600E552CE3F47 /* TabNav */ = {
+			isa = PBXGroup;
+			children = (
+				1F94FD872FE9DCDB775EAEB9DE3A4753 /* KKNavigationController.h */,
+				767BB1273DF7825BD3115F7C007F82DF /* KKNavigationController.m */,
+				ECEDFA5C23076921DECF5878ED415F0C /* KKTabBarController.h */,
+				07136E11CAD4664896C711BBAC3F3A98 /* KKTabBarController.m */,
+				2F3936330FF1EE8638C79D04A8750996 /* KKViewController.h */,
+				3369EB419D5F7CC56BFDA79FF58BA363 /* KKViewController.m */,
+			);
+			name = TabNav;
+			path = TabNav;
+			sourceTree = "<group>";
+		};
+		2FA4A9849F5B8437508A11A35024840C /* KeyChainManager */ = {
+			isa = PBXGroup;
+			children = (
+				F73AF93A7A3078EF77B9A548D3D4578C /* KeyChainManager.h */,
+				A45BEE5B20DAB1DE55D095BBC9150504 /* KeyChainManager.m */,
+				D26EB047A579E250267F29AD2A3E2549 /* UUIDManager.h */,
+				F922AE908599F6F2702B5B8D025B32C1 /* UUIDManager.m */,
+			);
+			name = KeyChainManager;
+			path = KeyChainManager;
+			sourceTree = "<group>";
+		};
+		45CA5309185E53B83FD3E350B0BF63B5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ED8C24AECF4EED496200DB350FBC23A /* KKToolsLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		371FA501F98FB59AE306FCCDFB23890E /* Pods-KKToolsLib_Example */ = {
+		4F2E26BC20E8B3205E5D22DB50A8FA0F /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				5249FE6C3C1887779DD2778360265E24 /* Pods-KKToolsLib_Example.modulemap */,
-				3BEE7E7347BD76FFDE063BAD478839EB /* Pods-KKToolsLib_Example-acknowledgements.markdown */,
-				76F5F66FE980E41A805E31D7C9D76717 /* Pods-KKToolsLib_Example-acknowledgements.plist */,
-				D7BBDBD698684C0E63C6851217143855 /* Pods-KKToolsLib_Example-dummy.m */,
-				F251EABBE1E98C64CAA0E0C2116715AD /* Pods-KKToolsLib_Example-Info.plist */,
-				F0EF773497C9F249214022EBF77110D9 /* Pods-KKToolsLib_Example-umbrella.h */,
-				1E42B76EADC3066DC75DD7CA2361BE8E /* Pods-KKToolsLib_Example.debug.xcconfig */,
-				0AC492337C5A1EDD23346FF1FB59A9EC /* Pods-KKToolsLib_Example.release.xcconfig */,
+				2E025B2122E63A2AC533341828854F0E /* KKTimer.h */,
+				DD3AF7DF8BDDE3C4D7D8B16D72917390 /* KKTimer.m */,
+				662B3667C9A6DC5DB21C0390161EFEEE /* AppRoutes */,
+				75C687D18B90B71D8FEFCE5464A47B7D /* Category */,
+				2FA4A9849F5B8437508A11A35024840C /* KeyChainManager */,
+				FFC499F3A8FEBAFDF61750ECE4BCE2FF /* Model */,
+				9826CD920395B8FF1CFA4EF94D341B53 /* MyNetWork */,
+				85FA8B2B1D303338AAE81060A8D4D055 /* PopView */,
+				58EED2D9B1DF6CE217D85AD4B8CD48A0 /* ProgressHud */,
+				2E15C0E8A9DAE0BF218600E552CE3F47 /* TabNav */,
+				E998197980C4569EEF1D584A11204236 /* WKWebKit */,
 			);
-			name = "Pods-KKToolsLib_Example";
-			path = "Target Support Files/Pods-KKToolsLib_Example";
+			name = BaseClass;
+			path = KKToolsLib/Classes/BaseClass;
 			sourceTree = "<group>";
 		};
-		4748BCB7483C9C3B4B12BB2E7FE668F0 /* KKToolsLib */ = {
+		546F1C19EA490AE84DE611852EAB65B4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				95DA6E8D98458DBCB7E64CE934D4DA51 /* AdvertisementModel.h */,
-				95173504CA633D83D56BE7982E2B68D5 /* AppLanguageModel.h */,
-				F897C4CFC94BF1E394299BF64867DFEA /* Pod */,
-				DDB6406AC7BA815B1D210E0B4DF848EB /* Support Files */,
+				7C48101D07468FA26067C5EC8E0E7D55 /* Pods-KKToolsLib_Example */,
+				E571F6725BB624745C58F57773D7583A /* Pods-KKToolsLib_Tests */,
 			);
-			name = KKToolsLib;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -139,39 +331,153 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		664D05DDEF2D0299859ADC815849BFB0 /* Pods-KKToolsLib_Tests */ = {
+		58EED2D9B1DF6CE217D85AD4B8CD48A0 /* ProgressHud */ = {
 			isa = PBXGroup;
 			children = (
-				3324E925243597D7BD01FF7DC0116208 /* Pods-KKToolsLib_Tests.modulemap */,
-				55B671A6CA2DFD33BDC8BE5E449C3018 /* Pods-KKToolsLib_Tests-acknowledgements.markdown */,
-				3862C519571F9C42329CC1E52D73EE51 /* Pods-KKToolsLib_Tests-acknowledgements.plist */,
-				76ABE2426090DE840B1F195D0CACD32E /* Pods-KKToolsLib_Tests-dummy.m */,
-				E1AD5D9F46873FDEC76D3B1E92F33FB2 /* Pods-KKToolsLib_Tests-Info.plist */,
-				0657D1A305D28D76BD885A62E24299D0 /* Pods-KKToolsLib_Tests-umbrella.h */,
-				B74EA14AE0877AC7362885FAD230ACB3 /* Pods-KKToolsLib_Tests.debug.xcconfig */,
-				1E582CC1879D4A0E8FA4235CAB12D7D0 /* Pods-KKToolsLib_Tests.release.xcconfig */,
+				C459E1D992692CD2341F113D2CF531AF /* Toast.h */,
+				16EA7D4C4D06D29A6FE9977DF329E50E /* Toast.m */,
 			);
-			name = "Pods-KKToolsLib_Tests";
-			path = "Target Support Files/Pods-KKToolsLib_Tests";
+			name = ProgressHud;
+			path = ProgressHud;
 			sourceTree = "<group>";
 		};
-		79FBCF435B133E889BFBC1B7D83B5461 /* Targets Support Files */ = {
+		5B2C1EE68B52476944DE7BB5133992DE /* ToolsSouce */ = {
 			isa = PBXGroup;
 			children = (
-				371FA501F98FB59AE306FCCDFB23890E /* Pods-KKToolsLib_Example */,
-				664D05DDEF2D0299859ADC815849BFB0 /* Pods-KKToolsLib_Tests */,
+				2A234FC0341EE6A8B9B2904C1FF33844 /* DatabaseUtils.h */,
+				F2724F9AD448945A4B2A05D80A577E7A /* DatabaseUtils.m */,
+				3D5CC7EBBF7C90FE4B7E44FB87F57318 /* HttpUtils.h */,
+				95B801F0B97397F889783AC174BA377F /* HttpUtils.m */,
+				1FB06AD50DA2D00950788F22D29E814B /* KKAudioPlayer.h */,
+				0C974020DF8103667B23702A02C2F70C /* KKAudioPlayer.m */,
+				7EC307D90141F30A7328AA219FEBE2BD /* KKTools.h */,
+				63FC57DF58A6B1982F56A908D710CDEC /* KKTools.m */,
 			);
-			name = "Targets Support Files";
+			name = ToolsSouce;
+			path = KKToolsLib/Classes/ToolsSouce;
+			sourceTree = "<group>";
+		};
+		662B3667C9A6DC5DB21C0390161EFEEE /* AppRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				B01939C52F33F5590AAF6EAA936D1C72 /* AppRoutes.h */,
+				95A9BE274D60E017E81914CF95CD976F /* AppRoutes.m */,
+			);
+			name = AppRoutes;
+			path = AppRoutes;
+			sourceTree = "<group>";
+		};
+		75C687D18B90B71D8FEFCE5464A47B7D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C6528D9A6D844009E2B5F204A823F9DB /* NSBundle+Language.h */,
+				1C35EECE6DAFD2565D85BA6AE878D36C /* NSBundle+Language.m */,
+				AA0E14665494EDD381B3940D82B55568 /* UIColor+Hex.h */,
+				468923914A4F0CF34C32C521BD5DE409 /* UIColor+Hex.m */,
+			);
+			name = Category;
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7C48101D07468FA26067C5EC8E0E7D55 /* Pods-KKToolsLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				256600E2BD9A62504974A9049D99F6E5 /* Pods-KKToolsLib_Example.modulemap */,
+				0C71BABF2376FE644065D2AD0124A322 /* Pods-KKToolsLib_Example-acknowledgements.markdown */,
+				E605A8CCB2C5D81613E7BE071130A299 /* Pods-KKToolsLib_Example-acknowledgements.plist */,
+				3AADAD4B3BBC5D2719E02368CFEE40D4 /* Pods-KKToolsLib_Example-dummy.m */,
+				706DE611B6342E2F2EF126CE429AFBCC /* Pods-KKToolsLib_Example-frameworks.sh */,
+				21C074229F3A32C1F9131BD62BB5A1C6 /* Pods-KKToolsLib_Example-Info.plist */,
+				62D036C1BFC5A06CDE5EEC9E64366207 /* Pods-KKToolsLib_Example-umbrella.h */,
+				FC3B20EB5102BF4CD5B77297C753EA0A /* Pods-KKToolsLib_Example.debug.xcconfig */,
+				0577F1D7383B06CFD07FE34FC751CB06 /* Pods-KKToolsLib_Example.release.xcconfig */,
+			);
+			name = "Pods-KKToolsLib_Example";
+			path = "Target Support Files/Pods-KKToolsLib_Example";
+			sourceTree = "<group>";
+		};
+		85FA8B2B1D303338AAE81060A8D4D055 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				2C971914548BEA8791C82C4EF20B9243 /* AlertActionPopView.h */,
+				B2074A3E1917459026C4AE128C0CCF5E /* AlertActionPopView.m */,
+				6224943BB8262AC3693EE9E701BCE673 /* RootPopView.h */,
+				41D963AE4C752428FB0658AAF8DFC70E /* RootPopView.m */,
+				A1F3518C199DA31007DBC6ACD9632692 /* AlertActionView */,
+			);
+			name = PopView;
+			path = PopView;
+			sourceTree = "<group>";
+		};
+		9285C8D16278B659BD593CB91C965BE6 /* LocalSouce */ = {
+			isa = PBXGroup;
+			children = (
+				6561BEE734B8CDA2882B70B40CFF2D50 /* basicdata.json */,
+				9E19D8A33C86430EB349CF01730E015E /* basicdata_Release.json */,
+			);
+			name = LocalSouce;
+			path = KKToolsLib/Classes/LocalSouce;
+			sourceTree = "<group>";
+		};
+		9826CD920395B8FF1CFA4EF94D341B53 /* MyNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				E24C6078FDEB08D74904367DECA4A420 /* KKNetworkAccessibility.h */,
+				D068D5249C1659C392F04FD7921072F7 /* KKNetworkAccessibility.m */,
+				5ED93D058B5E1C7A34FC66B8CC839B0C /* MyNetWorkManagement.h */,
+				F0B116EB20AEB59763352E9EF029C881 /* MyNetWorkManagement.m */,
+				15674F879FE11C7FDC50ABE57D69CAB5 /* NSJSONSerialization+JSON.h */,
+				1BEE62F9AA5B6C86BF77A3D311582F40 /* NSJSONSerialization+JSON.m */,
+				C243AC094B703955ACB3C88B03B89705 /* NSString+AES.h */,
+				99ECA121D8375F78F2E3601A669BE9D4 /* NSString+AES.m */,
+			);
+			name = MyNetWork;
+			path = MyNetWork;
+			sourceTree = "<group>";
+		};
+		9B47DC99A16724F3E90D3C67F8FCD07E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FB07D3F5C3A8B5835C7375CE032A845 /* KKToolsLib.modulemap */,
+				D61EE71054DA18A2FCED77FA3FD09598 /* KKToolsLib-dummy.m */,
+				00A66E7EBCBD4D1C7250620011CD326B /* KKToolsLib-Info.plist */,
+				E060842AC06144FFBFE4FB199662AB66 /* KKToolsLib-prefix.pch */,
+				3CEC5DB892C3E08057D57E46621063B7 /* KKToolsLib-umbrella.h */,
+				405204E223388C40A21661CC9E4788AE /* KKToolsLib.debug.xcconfig */,
+				3451AC26654BBFE95D5586234533D004 /* KKToolsLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKToolsLib";
+			sourceTree = "<group>";
+		};
+		A1F3518C199DA31007DBC6ACD9632692 /* AlertActionView */ = {
+			isa = PBXGroup;
+			children = (
+				D68E31A1C800D7218B12A998581A323F /* AlertViewManager.h */,
+				88B78C0563F9D3CB08E03981D2211784 /* AlertViewManager.m */,
+			);
+			name = AlertActionView;
+			path = AlertActionView;
+			sourceTree = "<group>";
+		};
+		CBD7291B6C11E6DE3A4C416AD388DD97 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD58DF65EC2BDA70FEDEB2329DBFC01F /* KKToolsLib.podspec */,
+				752B5DDA193B76DF36FEB580FB992055 /* LICENSE */,
+				68DDD9832D10FA1EF7E7E1BC52854F9B /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				335F73AA716BC36CE07558C4C7C92E5E /* Development Pods */,
+				45CA5309185E53B83FD3E350B0BF63B5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E4005C425A449008D9452962DFFD829E /* Products */,
-				79FBCF435B133E889BFBC1B7D83B5461 /* Targets Support Files */,
+				D4634B130C3738661AEA89B3E424B977 /* Products */,
+				546F1C19EA490AE84DE611852EAB65B4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,33 +489,68 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DDB6406AC7BA815B1D210E0B4DF848EB /* Support Files */ = {
+		D4634B130C3738661AEA89B3E424B977 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C862D281F2E1F1091B35F5CCE935E14 /* KKToolsLib.debug.xcconfig */,
-				7AB4155D66E540680BDA442F2629121C /* KKToolsLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KKToolsLib";
-			sourceTree = "<group>";
-		};
-		E4005C425A449008D9452962DFFD829E /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				9EF25BEA12F27A9F5B5DB70BDCE456CF /* KKToolsLib */,
 				DB81B4D67EC042EFADB6AD0F9302B8A4 /* Pods-KKToolsLib_Example */,
 				E41E9D31A615CDE110970C9B0457082E /* Pods-KKToolsLib_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F897C4CFC94BF1E394299BF64867DFEA /* Pod */ = {
+		E571F6725BB624745C58F57773D7583A /* Pods-KKToolsLib_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				AC50347515257050490BF6A612A5F4CC /* KKToolsLib.podspec */,
-				C2AD67D5CE757E8A943EBBB633DD39D2 /* LICENSE */,
-				CB7F162658BB54A2E8C0D8F6AD2B7006 /* README.md */,
+				B05A75BC4845DBC101E68A43EA514EF3 /* Pods-KKToolsLib_Tests.modulemap */,
+				4C9C79738EF6387456C03D57C9708A77 /* Pods-KKToolsLib_Tests-acknowledgements.markdown */,
+				47D3B9F65C7183418BD34CD7E3C1FFCD /* Pods-KKToolsLib_Tests-acknowledgements.plist */,
+				88D232984D4BD9FADC0D564944CAFCB9 /* Pods-KKToolsLib_Tests-dummy.m */,
+				7518A5F440250E712CF723EF36F28B3C /* Pods-KKToolsLib_Tests-Info.plist */,
+				6F58C8869F4E13EF3BDA3B31B229F021 /* Pods-KKToolsLib_Tests-umbrella.h */,
+				A3F7734E6974B42DABCC58F9589E4F11 /* Pods-KKToolsLib_Tests.debug.xcconfig */,
+				1B8B3900D932D2032364BA2825B9DEB1 /* Pods-KKToolsLib_Tests.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-KKToolsLib_Tests";
+			path = "Target Support Files/Pods-KKToolsLib_Tests";
+			sourceTree = "<group>";
+		};
+		E998197980C4569EEF1D584A11204236 /* WKWebKit */ = {
+			isa = PBXGroup;
+			children = (
+				5AF93A0460136043E25A5BD83F57CF7A /* WKAppManager.h */,
+				D71BADAB1EAF777A2021B747D5F179C9 /* WKAppManager.m */,
+			);
+			name = WKWebKit;
+			path = WKWebKit;
+			sourceTree = "<group>";
+		};
+		FFC499F3A8FEBAFDF61750ECE4BCE2FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29A30B47D0D0B352BB962CEAEE24AE6E /* AdvertisementModel.h */,
+				3E40E89756FBB0C4348C32FF30D7DDAC /* AdvertisementModel.m */,
+				D2AD89BBEC2443D61984603456A27C56 /* AppLanguageModel.h */,
+				985B7F0F2F1EAF1C09E2E38B6C0BF5E4 /* AppLanguageModel.m */,
+				FC18D6CCA8137806E6F74CFD08E68370 /* AppProductsModel.h */,
+				3FB9D34AF758E08FE859B6C824997AB6 /* AppProductsModel.m */,
+				7E77BD167AD5ECDDED8F430CF8201324 /* AppRecordModel.h */,
+				22E39904654B0C05F13CB72B2DEC66E7 /* AppRecordModel.m */,
+				8810B763060BF119CA709E9AC5828BE2 /* ConfigInitModel.h */,
+				CFD02233AB3C2BBF3F73D7132CF8C169 /* ConfigInitModel.m */,
+				8930343A8B9B18D868C7B135B941F54E /* CurrentVipModel.h */,
+				9DCB270E06B2277DDFCE2CC8446C09DE /* CurrentVipModel.m */,
+				D823E59DF0EB419770A44711EBB9974E /* LogEventModel.h */,
+				5FB2F82F9E7B519EE70C3D491C9BE2D1 /* LogEventModel.m */,
+				BAC018E0F32F3BB5D39A1ADDDF3A3124 /* MusicListModel.h */,
+				7F2F8304200A2E1C4AFBE5FBD357C772 /* MusicListModel.m */,
+				766DD77D64358371A6F7B77D76B08FD9 /* MusicListTypeModel.h */,
+				0525424ED6136AC1E765E56B69476FC7 /* MusicListTypeModel.m */,
+				162B0190BA3299A4FE702C9FD1A4F04C /* MusicModel.h */,
+				E564494682C1A1280D2689E8A5D71378 /* MusicModel.m */,
+			);
+			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +561,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				60665598EACEF4A373D3C499D5858D07 /* Pods-KKToolsLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1A85D2AF7EBFB9D1972D484EDCB2A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAF495811ED348F4C0205403326F456 /* AdvertisementModel.h in Headers */,
+				85B5818BA46FD98E244FC2434A148CF0 /* AlertActionPopView.h in Headers */,
+				7F128682444D068FC7DCB128F2BA7781 /* AlertViewManager.h in Headers */,
+				0B0C5B2C362C16D07040264C8DE85412 /* AppLanguageModel.h in Headers */,
+				C2251C944116C65FCF4B0D9DC90BAC48 /* AppProductsModel.h in Headers */,
+				BFEF81402002C2ACDB5CEC1B7CE8ECAF /* AppRecordModel.h in Headers */,
+				C6131D9B293F9F025C4755CF087C4FD0 /* AppRoutes.h in Headers */,
+				EFC8DC052C63E9E5AED93307A5604C53 /* ConfigInitModel.h in Headers */,
+				EA3966E3A96E9FC5E347FC3A25DDDB56 /* CurrentVipModel.h in Headers */,
+				61A57EC2D46B335297025DCC3B2A3944 /* DatabaseUtils.h in Headers */,
+				FDE43F2A8A70783AD3CFE8B03DB665CF /* Environment.h in Headers */,
+				1EE33D80518F92A0F4794831548C3B06 /* HttpUtils.h in Headers */,
+				684BCA6D70D3F497DF52D5A01330E867 /* KeyChainManager.h in Headers */,
+				93DB9CFC9BDE1F1BF0DA54146B52BE58 /* KKAudioPlayer.h in Headers */,
+				DCBDD6F922C3A529FB089EF2F1B0A021 /* KKNavigationController.h in Headers */,
+				65762408AB07DB63FC389CB04B8FC45B /* KKNetworkAccessibility.h in Headers */,
+				EA3CB97A8928EFAE52B072B59B43657D /* KKTabBarController.h in Headers */,
+				FA454AB5761530D42CA17B0480526F6A /* KKTimer.h in Headers */,
+				65967EEE26ABDC0F642BFACC30621652 /* KKTools.h in Headers */,
+				3AA97905D9AF07D3761E972FC3CB3C07 /* KKToolsLib.h in Headers */,
+				B467532EF14DAFA48D55B62B2D842D0D /* KKToolsLib-umbrella.h in Headers */,
+				9539C3697B7B330BACE99BFB47AE20B7 /* KKViewController.h in Headers */,
+				98F654795DB2E9F81DBF136FCE0F0786 /* LogEventModel.h in Headers */,
+				9B16E1AE1913FD8CEF215C7A6DF46FB2 /* MusicListModel.h in Headers */,
+				AC9C2310B09AA80C90BB77F8CA6F6C14 /* MusicListTypeModel.h in Headers */,
+				D743E97DB251370CEE6459EC008AA985 /* MusicModel.h in Headers */,
+				5A09C2EB9FF8EA133508B2205F2824A0 /* MyNetWorkManagement.h in Headers */,
+				61079C3E4BF5040459903AFB0C6A305F /* NSBundle+Language.h in Headers */,
+				E9CE59FA01085B2D381AA6DDBC001D1A /* NSJSONSerialization+JSON.h in Headers */,
+				FC31963530F7A6714DE5F7E1266CB90F /* NSString+AES.h in Headers */,
+				CBEA634DB21AE05ADE4D3C7793AC10FC /* ObjectProperty.h in Headers */,
+				17D3A9D71EA3517E18AC1F16DC1C8CB6 /* RootPopView.h in Headers */,
+				C75CD3CE1C1C9730BEB2D1B375AE2B6A /* Toast.h in Headers */,
+				20FEECD1423652F4EA67DBD2174FA851 /* UIColor+Hex.h in Headers */,
+				0879D48ECA4FE0A9C34371CFAA375D42 /* UUIDManager.h in Headers */,
+				44F1E23DAA19ECD87E3C5D6FD73B7CF1 /* WKAppManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +618,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		348533536CAB1F4D0EBF1626C6F204C4 /* KKToolsLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EF8750113346460CE0912D83182A36 /* Build configuration list for PBXNativeTarget "KKToolsLib" */;
+			buildPhases = (
+				BC1A85D2AF7EBFB9D1972D484EDCB2A7 /* Headers */,
+				525550109AD430D14E8FC0699A4DA269 /* Sources */,
+				D79CA37F864E5478D0C7D476FCCBA216 /* Frameworks */,
+				F662DE497640F6F73485C8593C906828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKToolsLib;
+			productName = KKToolsLib;
+			productReference = 9EF25BEA12F27A9F5B5DB70BDCE456CF /* KKToolsLib */;
+			productType = "com.apple.product-type.framework";
+		};
 		674FF4A99965E65539702D52C4E5A68C /* Pods-KKToolsLib_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 962ACEBD573712A842333638E40D41FE /* Build configuration list for PBXNativeTarget "Pods-KKToolsLib_Tests" */;
@@ -246,7 +648,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2FD8B2047E64FD64C7576E3558A0F23D /* PBXTargetDependency */,
+				1AE68CE38A8AB4DD41BD19C088046D86 /* PBXTargetDependency */,
 			);
 			name = "Pods-KKToolsLib_Tests";
 			productName = Pods_KKToolsLib_Tests;
@@ -265,7 +667,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				655878DC7848294DF57015CAAF6B547A /* PBXTargetDependency */,
+				BB23D55470814C68DB280399A5C6DF4C /* PBXTargetDependency */,
 			);
 			name = "Pods-KKToolsLib_Example";
 			productName = Pods_KKToolsLib_Example;
@@ -290,7 +692,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E4005C425A449008D9452962DFFD829E /* Products */;
+			productRefGroup = D4634B130C3738661AEA89B3E424B977 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -316,9 +718,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F662DE497640F6F73485C8593C906828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		525550109AD430D14E8FC0699A4DA269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3D21E7388F34E9E27562B7339B7847 /* AdvertisementModel.m in Sources */,
+				098450BFEA7A2E652BDD10D1EE910786 /* AlertActionPopView.m in Sources */,
+				7EC26B5EAF8947EF9C8100197BFD5AB1 /* AlertViewManager.m in Sources */,
+				95F69AF2BF3D266E36D2D8AA0D746FF4 /* AppLanguageModel.m in Sources */,
+				584B1D713B2A1175114B4AF81D9915B5 /* AppProductsModel.m in Sources */,
+				7676328326507A53DB0348EFA9CAE90C /* AppRecordModel.m in Sources */,
+				69BC920804ED282A10BBA2EB2471B1F6 /* AppRoutes.m in Sources */,
+				7AC012A8D0892F0EA946B7F01E900B0F /* basicdata.json in Sources */,
+				D1B918D8EFB135F92A7FDC589D1B2942 /* basicdata_Release.json in Sources */,
+				50784993D15F23BBE9DB8865A2890606 /* ConfigInitModel.m in Sources */,
+				C7C061BE0F050E758FC7C06E00B80A68 /* CurrentVipModel.m in Sources */,
+				8FF61499D7BE7D805BF366B614E22418 /* DatabaseUtils.m in Sources */,
+				818F9F719783632AD97C41A7A30A340D /* HttpUtils.m in Sources */,
+				89F591615F6BAF0F1905D3F21210DF01 /* KeyChainManager.m in Sources */,
+				F088E54A47077E79AC834444BC40D2F9 /* KKAudioPlayer.m in Sources */,
+				77034CA8756290125ADCFD91E73BC963 /* KKNavigationController.m in Sources */,
+				4F9F03739015D16FFA3B2552860D6521 /* KKNetworkAccessibility.m in Sources */,
+				0DF36B75C93224DBEA38D1DB0E550D49 /* KKTabBarController.m in Sources */,
+				ED406371781C8A4CE077B8715DE7AB9F /* KKTimer.m in Sources */,
+				01BC998EF7E39EA3183CD5B6C55547AE /* KKTools.m in Sources */,
+				FFC04FFC99CB9833460AC2BB1D50D4FA /* KKToolsLib-dummy.m in Sources */,
+				29E815C1B2EADF5E314168A663CA520A /* KKViewController.m in Sources */,
+				5184B0D5CBDEC96893CE3472B5606408 /* LogEventModel.m in Sources */,
+				EF64B187A1962A0DDC9AB5854A5E1B9E /* MusicListModel.m in Sources */,
+				12D5F16B2501DB507B532FE968050D46 /* MusicListTypeModel.m in Sources */,
+				5F9138A1C97B9714D6E86F6DA4EA7E1A /* MusicModel.m in Sources */,
+				0A361142D41F4A41374257857B2EBF5A /* MyNetWorkManagement.m in Sources */,
+				9B52A1C061899EF08B4ECD8B2024166D /* NSBundle+Language.m in Sources */,
+				1347F7C8FDCBEB16A9D4B5D2D2E2AB25 /* NSJSONSerialization+JSON.m in Sources */,
+				B0143323ED1CC0AF1D719C8D71B4DA9E /* NSString+AES.m in Sources */,
+				C88574334732C8B8A37E6CCB37B52714 /* RootPopView.m in Sources */,
+				57FA0869BFE2D3ADF1884B327AFCF357 /* Toast.m in Sources */,
+				46FE173C4573C2F7AD04C27B2E2F6B5D /* UIColor+Hex.m in Sources */,
+				18DB5D47BC31B9CA4ED2B4ACC76166F3 /* UUIDManager.m in Sources */,
+				B40B6DE8172FFD3DF01E254C17132B46 /* WKAppManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE238BD547E60B8A9E535F3F40224C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,50 +789,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FD8B2047E64FD64C7576E3558A0F23D /* PBXTargetDependency */ = {
+		1AE68CE38A8AB4DD41BD19C088046D86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KKToolsLib_Example";
 			target = E9E694C3F12EAC60D5003DEF9F8FAE59 /* Pods-KKToolsLib_Example */;
-			targetProxy = BC2B3ACE7044AC4A83D457BE19654C7B /* PBXContainerItemProxy */;
+			targetProxy = D970039B54C51ACD8FFB12BCB2575415 /* PBXContainerItemProxy */;
 		};
-		655878DC7848294DF57015CAAF6B547A /* PBXTargetDependency */ = {
+		BB23D55470814C68DB280399A5C6DF4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KKToolsLib;
 			target = 348533536CAB1F4D0EBF1626C6F204C4 /* KKToolsLib */;
-			targetProxy = 6FABE65BDFCAE1AF3802FF407E810345 /* PBXContainerItemProxy */;
+			targetProxy = E68BFE13D8DA9C2ACD76C1F92633A9DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		57E2A43CFE4C2997309732525D8278AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AB4155D66E540680BDA442F2629121C /* KKToolsLib.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7B33172E3C6230202A4C41FCEF93F6B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C862D281F2E1F1091B35F5CCE935E14 /* KKToolsLib.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -437,15 +859,79 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
+		91E70C3393539072B2FE2FEAE45E5AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405204E223388C40A21661CC9E4788AE /* KKToolsLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKToolsLib/KKToolsLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKToolsLib/KKToolsLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKToolsLib/KKToolsLib.modulemap";
+				PRODUCT_MODULE_NAME = KKToolsLib;
+				PRODUCT_NAME = KKToolsLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5B3AB95D20B0CFF83B1EC0B63790939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3451AC26654BBFE95D5586234533D004 /* KKToolsLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKToolsLib/KKToolsLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKToolsLib/KKToolsLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKToolsLib/KKToolsLib.modulemap";
+				PRODUCT_MODULE_NAME = KKToolsLib;
+				PRODUCT_NAME = KKToolsLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		AF9133250BFEB3DA8C663BC9EE28D862 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E42B76EADC3066DC75DD7CA2361BE8E /* Pods-KKToolsLib_Example.debug.xcconfig */;
+			baseConfigurationReference = FC3B20EB5102BF4CD5B77297C753EA0A /* Pods-KKToolsLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -478,7 +964,7 @@
 		};
 		B47877708B2E4D6E04B8B19A25167672 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E582CC1879D4A0E8FA4235CAB12D7D0 /* Pods-KKToolsLib_Tests.release.xcconfig */;
+			baseConfigurationReference = 1B8B3900D932D2032364BA2825B9DEB1 /* Pods-KKToolsLib_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -512,7 +998,7 @@
 		};
 		B6A723CDD7C5338EED409C7584A42601 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B74EA14AE0877AC7362885FAD230ACB3 /* Pods-KKToolsLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = A3F7734E6974B42DABCC58F9589E4F11 /* Pods-KKToolsLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -545,7 +1031,7 @@
 		};
 		C7D90F9AD4C060F03E26DB5F5E8906F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AC492337C5A1EDD23346FF1FB59A9EC /* Pods-KKToolsLib_Example.release.xcconfig */;
+			baseConfigurationReference = 0577F1D7383B06CFD07FE34FC751CB06 /* Pods-KKToolsLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -664,20 +1150,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		98EF8750113346460CE0912D83182A36 /* Build configuration list for PBXNativeTarget "KKToolsLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E70C3393539072B2FE2FEAE45E5AC1 /* Debug */,
+				A5B3AB95D20B0CFF83B1EC0B63790939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A7C8DAB1B21042333EE41F5FF174D213 /* Build configuration list for PBXNativeTarget "Pods-KKToolsLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF9133250BFEB3DA8C663BC9EE28D862 /* Debug */,
 				C7D90F9AD4C060F03E26DB5F5E8906F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2C28C63B6ADF7AAA451DD415BD40357 /* Build configuration list for PBXAggregateTarget "KKToolsLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B33172E3C6230202A4C41FCEF93F6B9 /* Debug */,
-				57E2A43CFE4C2997309732525D8278AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

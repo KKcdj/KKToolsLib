@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKToolsLib: c243b49602ec27f0bc9af71766032cae313d6d6c
+  KKToolsLib: bd4dd19a7ca2ea1dafbcf8d0dafa0344bec7058e
 
 PODFILE CHECKSUM: 3b64fd49f98e0e826dadd709fa730f7a648c243f
 
