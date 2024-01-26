@@ -79,35 +79,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		053C42B4A19F9BB7452EBA480BCF0049 /* PBXContainerItemProxy */ = {
+		0183ACD83A4594C8093B37C274C848F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A15A717B001F436F4C905FA2FFB56A5;
 			remoteInfo = ZBNetworking;
 		};
-		AE15C30732B6EC81EC5DA3898D4342CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9E694C3F12EAC60D5003DEF9F8FAE59;
-			remoteInfo = "Pods-KKToolsLib_Example";
-		};
-		B08BF75C9E1AC52E25B98E36A179C264 /* PBXContainerItemProxy */ = {
+		2E9D154474DB0811AE52529068053558 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		C1D426745F4935BA1786B4D44E6A997F /* PBXContainerItemProxy */ = {
+		A20F0ECFE366F778D68FDE92E22553CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 348533536CAB1F4D0EBF1626C6F204C4;
 			remoteInfo = KKToolsLib;
 		};
-		F1AABDF4D78028D2F71A754AAD4123B4 /* PBXContainerItemProxy */ = {
+		BD50B260398DE72ECEE01D98CC5BEEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E694C3F12EAC60D5003DEF9F8FAE59;
+			remoteInfo = "Pods-KKToolsLib_Example";
+		};
+		E07823961C12B3C5459AEA894A177D86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -140,20 +140,21 @@
 		3C21C727BBE08AE6B4625C296AFD2C4B /* ZBRequestConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBRequestConst.h; path = ZBNetworking/ZBRequestConst.h; sourceTree = "<group>"; };
 		3C6098E8513F37EC9900FCF636D8C367 /* ZBNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZBNetworking-umbrella.h"; sourceTree = "<group>"; };
 		3D339064593510DCE984E278ABBB8A89 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		41FEC4E6F5A019F575DC2517DECBCD55 /* KKLibObjectProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKLibObjectProperty.h; path = KKToolsLib/Classes/KKLibObjectProperty.h; sourceTree = "<group>"; };
 		44D163A653CAC9045F7A9B461109F1BB /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		44EE5017C907918626876D915A258A7C /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		478A8A6FB6546168BB2D4D074BCDB751 /* ZBNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZBNetworking.modulemap; sourceTree = "<group>"; };
 		47D3B9F65C7183418BD34CD7E3C1FFCD /* Pods-KKToolsLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4992D2DEA2B8CDB42EBC666B5A2CC67D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4A580591F32811B3A5C1BAF4D27E4BA2 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		4C9C79738EF6387456C03D57C9708A77 /* Pods-KKToolsLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKToolsLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		50D657A0E09935BF1D91818163F7FFF4 /* ZBRequestEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBRequestEngine.m; path = ZBNetworking/ZBRequestEngine.m; sourceTree = "<group>"; };
 		58BE2F5FB4855F24A4CA9F99C508D8AF /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		5948A9DC9AAB1100ADE2AB3A148C9CBB /* KKToolsLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKToolsLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59C103522CE0EB5759F3BF635A6B8884 /* KKToolsLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.release.xcconfig; sourceTree = "<group>"; };
 		5AC252A55136F253080767D505E52F2B /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		602DF42BB4327B71E1971002C398F97B /* ZBNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZBNetworking-dummy.m"; sourceTree = "<group>"; };
 		61EEE71FA95214F1675E8C60B30B3C75 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		62D036C1BFC5A06CDE5EEC9E64366207 /* Pods-KKToolsLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKToolsLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		63B495DB6DC5AC3DA2834932BA3E54D5 /* KKToolsLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.debug.xcconfig; sourceTree = "<group>"; };
 		652103D8F437238E1CCA6704711735C7 /* ZBNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZBNetworking-Info.plist"; sourceTree = "<group>"; };
 		68CC9E6FEBB1478FD1CF686ABB454BAF /* ZBURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBURLRequest.h; path = ZBNetworking/ZBURLRequest.h; sourceTree = "<group>"; };
 		6B2976B7C994A82EC37C172BC399F4C4 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -164,6 +165,7 @@
 		73B1C52F3B4B055280CE4607581F616B /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		7518A5F440250E712CF723EF36F28B3C /* Pods-KKToolsLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		76540167CCAD4DACDEEC51CA91C87631 /* ZBNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZBNetworking; path = ZBNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783B44C535C74865A77A221644DE22CA /* AAKKToolsLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAKKToolsLib.h; path = KKToolsLib/Classes/AAKKToolsLib.h; sourceTree = "<group>"; };
 		7E26F40CD466CD3172B3C5F173B11967 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		822A25781D55CB026435EF804C5F0332 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		8445F297A0206C9BF62B227082CCE7CA /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -172,7 +174,6 @@
 		869FAC73BF1A393E84E364ED88B7B8CC /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		88D232984D4BD9FADC0D564944CAFCB9 /* Pods-KKToolsLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKToolsLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		89784C2500A76DBF6CCE4656C1A148A7 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		8A331950D1DEACE98294FD040523D4B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		92710A88291B8B994B48F3E66FD8E4E8 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		92E325D7CB9FE88F14C40AACE2A8C6B6 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		982790A3BEF01351D79435A6F5EB0735 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
@@ -186,18 +187,19 @@
 		A65AD33C29A10E87F304E6CE1FD9004A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		A7FA96419A69E3260359BE2C81031AA0 /* ZBNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZBNetworking.release.xcconfig; sourceTree = "<group>"; };
 		AAA98F4A4A9E47C907222ABD8559D6AC /* ZBNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZBNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		AF2823E3BBB94109E3E7366F887CFAC3 /* KKToolsLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKToolsLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B05A75BC4845DBC101E68A43EA514EF3 /* Pods-KKToolsLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKToolsLib_Tests.modulemap"; sourceTree = "<group>"; };
+		B07CC69D9FF7018B4640EB07EC660824 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B825B8BCB2103159075A62662B6D4B87 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		BA5DDDB8CCCEEF0CACE64A5D44127835 /* KKToolsLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.release.xcconfig; sourceTree = "<group>"; };
 		BD23F2B5BCCD89DBD31FD6E89BD2507A /* NSString+ZBURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZBURLEncoding.m"; path = "ZBNetworking/NSString+ZBURLEncoding.m"; sourceTree = "<group>"; };
 		BE9D0D295F9ECEAE812A56E875B4BE19 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		BFA350CAE8B5467E4990171F6146E8B1 /* ZBRequestEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBRequestEngine.h; path = ZBNetworking/ZBRequestEngine.h; sourceTree = "<group>"; };
 		C0D6509E28F99C003DECC1D1203359AF /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		C7905B4FA6F09754E660F849A3858AE2 /* KKToolsLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKToolsLib.debug.xcconfig; sourceTree = "<group>"; };
 		CFEAEA76641F813EFE6E6093AFE6B181 /* ZBNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZBNetworking-prefix.pch"; sourceTree = "<group>"; };
 		D0139EF04CF52B488145A07DBF65AAAC /* ZBNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBNetworking.h; path = ZBNetworking/ZBNetworking.h; sourceTree = "<group>"; };
 		D59B792B2EDA47CD681A48F5F4322BF5 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		DB81B4D67EC042EFADB6AD0F9302B8A4 /* Pods-KKToolsLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKToolsLib_Example"; path = Pods_KKToolsLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4EB158A54B9B98987618A0773A3274 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E2F9EC19D7912C038BD178CE58A77C79 /* NSString+ZBURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZBURLEncoding.h"; path = "ZBNetworking/NSString+ZBURLEncoding.h"; sourceTree = "<group>"; };
 		E41E9D31A615CDE110970C9B0457082E /* Pods-KKToolsLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKToolsLib_Tests"; path = Pods_KKToolsLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E605A8CCB2C5D81613E7BE071130A299 /* Pods-KKToolsLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKToolsLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -272,14 +274,6 @@
 			path = "../Target Support Files/ZBNetworking";
 			sourceTree = "<group>";
 		};
-		271D89A4199C730E07D153147B6A338A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3ABBC2D0E6F7A7F73BCDDC935A78BD3A /* KKToolsLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		31A1F9FC52DE201ED3C9E34CFE367F2F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +300,14 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		335F73AA716BC36CE07558C4C7C92E5E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E061D3F45E0A60B8FBC4011A9C11F3 /* KKToolsLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		34EECC2A1415BB9620C287C98601B2A6 /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,16 +315,6 @@
 				89784C2500A76DBF6CCE4656C1A148A7 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
-			sourceTree = "<group>";
-		};
-		3ABBC2D0E6F7A7F73BCDDC935A78BD3A /* KKToolsLib */ = {
-			isa = PBXGroup;
-			children = (
-				F14500B452944AAF32DA9CAC255794E7 /* Pod */,
-				623B5A184F5D823FAA8DBCDD7A8E1BAA /* Support Files */,
-			);
-			name = KKToolsLib;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		4E90400FF838396989F79EE7AD3A1620 /* Reachability */ = {
@@ -349,16 +341,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		623B5A184F5D823FAA8DBCDD7A8E1BAA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C7905B4FA6F09754E660F849A3858AE2 /* KKToolsLib.debug.xcconfig */,
-				BA5DDDB8CCCEEF0CACE64A5D44127835 /* KKToolsLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KKToolsLib";
 			sourceTree = "<group>";
 		};
 		7C48101D07468FA26067C5EC8E0E7D55 /* Pods-KKToolsLib_Example */ = {
@@ -410,6 +392,18 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
+		B7E061D3F45E0A60B8FBC4011A9C11F3 /* KKToolsLib */ = {
+			isa = PBXGroup;
+			children = (
+				783B44C535C74865A77A221644DE22CA /* AAKKToolsLib.h */,
+				41FEC4E6F5A019F575DC2517DECBCD55 /* KKLibObjectProperty.h */,
+				CBD61D0F70CCE5056C8109598C3BA430 /* Pod */,
+				EE17A1712A0B4C3CE6BD45512FFB2127 /* Support Files */,
+			);
+			name = KKToolsLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C55A5F606909C0292C6D3A5224111885 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,11 +419,21 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		CBD61D0F70CCE5056C8109598C3BA430 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AF2823E3BBB94109E3E7366F887CFAC3 /* KKToolsLib.podspec */,
+				B07CC69D9FF7018B4640EB07EC660824 /* LICENSE */,
+				DE4EB158A54B9B98987618A0773A3274 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				271D89A4199C730E07D153147B6A338A /* Development Pods */,
+				335F73AA716BC36CE07558C4C7C92E5E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8C693D8117873115020A8318C9A7EDF6 /* Pods */,
 				EA2CDC1D99E46436BE1F9C18DA3F12E3 /* Products */,
@@ -493,14 +497,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F14500B452944AAF32DA9CAC255794E7 /* Pod */ = {
+		EE17A1712A0B4C3CE6BD45512FFB2127 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5948A9DC9AAB1100ADE2AB3A148C9CBB /* KKToolsLib.podspec */,
-				4992D2DEA2B8CDB42EBC666B5A2CC67D /* LICENSE */,
-				8A331950D1DEACE98294FD040523D4B7 /* README.md */,
+				63B495DB6DC5AC3DA2834932BA3E54D5 /* KKToolsLib.debug.xcconfig */,
+				59C103522CE0EB5759F3BF635A6B8884 /* KKToolsLib.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKToolsLib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -596,7 +600,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				59F804C9CA71D735FBF033C0F00B4DB6 /* PBXTargetDependency */,
+				61ABC56ACA3D05B5C6272B57495294E3 /* PBXTargetDependency */,
 			);
 			name = ZBNetworking;
 			productName = ZBNetworking;
@@ -615,7 +619,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F5520496634D14E169AB6E17105847DA /* PBXTargetDependency */,
+				D3A6B854C501FD8CDFE12CB4B2ED7683 /* PBXTargetDependency */,
 			);
 			name = "Pods-KKToolsLib_Tests";
 			productName = Pods_KKToolsLib_Tests;
@@ -634,9 +638,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				7781D6BBD90272C9EA3AD3807EC8D922 /* PBXTargetDependency */,
-				02ECA83D858F855FF2341A2CCE3F69BE /* PBXTargetDependency */,
-				73444534F342E45A7C742460920ED806 /* PBXTargetDependency */,
+				116E712EE93B34A7634FBE5B4FEF4671 /* PBXTargetDependency */,
+				06C7C93F603B2B6E1E8A05EBB8A799CE /* PBXTargetDependency */,
+				EE192B006C1241D96F89FBA793A75C6F /* PBXTargetDependency */,
 			);
 			name = "Pods-KKToolsLib_Example";
 			productName = Pods_KKToolsLib_Example;
@@ -761,42 +765,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02ECA83D858F855FF2341A2CCE3F69BE /* PBXTargetDependency */ = {
+		06C7C93F603B2B6E1E8A05EBB8A799CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KKToolsLib;
 			target = 348533536CAB1F4D0EBF1626C6F204C4 /* KKToolsLib */;
-			targetProxy = C1D426745F4935BA1786B4D44E6A997F /* PBXContainerItemProxy */;
+			targetProxy = A20F0ECFE366F778D68FDE92E22553CF /* PBXContainerItemProxy */;
 		};
-		59F804C9CA71D735FBF033C0F00B4DB6 /* PBXTargetDependency */ = {
+		116E712EE93B34A7634FBE5B4FEF4671 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = B08BF75C9E1AC52E25B98E36A179C264 /* PBXContainerItemProxy */;
+			targetProxy = E07823961C12B3C5459AEA894A177D86 /* PBXContainerItemProxy */;
 		};
-		73444534F342E45A7C742460920ED806 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZBNetworking;
-			target = 1A15A717B001F436F4C905FA2FFB56A5 /* ZBNetworking */;
-			targetProxy = 053C42B4A19F9BB7452EBA480BCF0049 /* PBXContainerItemProxy */;
-		};
-		7781D6BBD90272C9EA3AD3807EC8D922 /* PBXTargetDependency */ = {
+		61ABC56ACA3D05B5C6272B57495294E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = F1AABDF4D78028D2F71A754AAD4123B4 /* PBXContainerItemProxy */;
+			targetProxy = 2E9D154474DB0811AE52529068053558 /* PBXContainerItemProxy */;
 		};
-		F5520496634D14E169AB6E17105847DA /* PBXTargetDependency */ = {
+		D3A6B854C501FD8CDFE12CB4B2ED7683 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KKToolsLib_Example";
 			target = E9E694C3F12EAC60D5003DEF9F8FAE59 /* Pods-KKToolsLib_Example */;
-			targetProxy = AE15C30732B6EC81EC5DA3898D4342CF /* PBXContainerItemProxy */;
+			targetProxy = BD50B260398DE72ECEE01D98CC5BEEC0 /* PBXContainerItemProxy */;
+		};
+		EE192B006C1241D96F89FBA793A75C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZBNetworking;
+			target = 1A15A717B001F436F4C905FA2FFB56A5 /* ZBNetworking */;
+			targetProxy = 0183ACD83A4594C8093B37C274C848F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		57E2A43CFE4C2997309732525D8278AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA5DDDB8CCCEEF0CACE64A5D44127835 /* KKToolsLib.release.xcconfig */;
+			baseConfigurationReference = 59C103522CE0EB5759F3BF635A6B8884 /* KKToolsLib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -872,7 +876,7 @@
 		};
 		7B33172E3C6230202A4C41FCEF93F6B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7905B4FA6F09754E660F849A3858AE2 /* KKToolsLib.debug.xcconfig */;
+			baseConfigurationReference = 63B495DB6DC5AC3DA2834932BA3E54D5 /* KKToolsLib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
