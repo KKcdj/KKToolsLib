@@ -1,0 +1,241 @@
+{
+    "langs": [
+        {
+            "language_text": "跟随系统",
+            "ID":"0",
+            "language_key": "system"
+        }, {
+            "language_text": "English",
+            "ID":"1",
+            "language_key": "en"
+        }, {
+            "language_text": "Deutsch",
+            "ID":"2",
+            "language_key": "de"
+        }, {
+            "language_text": "Français",
+            "ID":"3",
+            "language_key": "fr"
+        }, {
+            "language_text": "한국인",
+            "ID":"4",
+            "language_key": "ko"
+        }, {
+            "language_text": "Português",
+            "ID":"5",
+            "language_key": "pt"
+        }, {
+            "language_text": "日本語",
+            "ID":"6",
+            "language_key": "ja"
+        }, {
+            "language_text": "Español",
+            "ID":"7",
+            "language_key": "es"
+        }, {
+            "language_text": "简体中文",
+            "ID":"8",
+            "language_key": "zh-Hans"
+        },{
+            "language_text": "Русский",
+            "ID":"9",
+            "language_key": "ru"
+        },{
+            "language_text": "Bahasa Indonesia",
+            "ID":"10",
+            "language_key": "id"
+        },{
+            "language_text": "عربي",
+            "ID":"11",
+            "language_key": "ar"
+        },{
+            "language_text": "แบบไทย",
+            "ID":"12",
+            "language_key": "th"
+        },{
+            "language_text": "မြန်မာ",
+            "ID":"13",
+            "language_key": "my"
+        },{
+            "language_text": "नहीं",
+            "ID":"14",
+            "language_key": "hi"
+        },
+    ],
+    "pays": [
+        {
+            "id": "empty.com.vpn.weekscard",
+            "product_price": "$6.99",
+            "product_price_num": 6.99,
+            "num": 0,
+            "type": 0
+        },
+        {
+            "id": "empty.com.vpn.monthlycard",
+            "product_price": "$15.99",
+            "product_price_num": 15.99,
+            "num": 1,
+            "type": 0
+        },
+        {
+            "id": "empty.com.vpn.yearcard",
+            "product_price": "$95.99",
+            "product_price_num": 95.99,
+            "num": 2,
+            "type": 0
+        },
+        {
+            "id": "empty.com.vpn.newuserspecial",
+            "product_price": "$3.99",
+            "product_price_num": 3.99,
+            "num": 3,
+            "type": 0
+        },
+        {
+            "id": "empty.com.vpn.onefree",
+            "product_price": "$95.99",
+            "product_price_num": 95.99,
+            "num": 4,
+            "type": 0
+        },
+
+        {
+            "id": "com.vpn.reward",
+            "product_price": "$0.00",
+            "num": 100,
+            "type": 100
+        },
+    ],
+    "ads" : [
+        {
+            "tag" : "inter",
+            "ids" : [
+                {
+                    "type" : 0,
+                    "id" : "41c9dd0d9131f69c"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/4411468911"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/4411468911"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/4411468910"
+                }
+            ]
+        },
+        {
+            "tag" : "reward",
+            "ids" : [
+                {
+                    "type" : 0,
+                    "id": "ca-app-pub-3940256099942544/1712485313"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/1712485313"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-8367604035663349/3382957608"
+                }
+            ]
+        },
+        {
+            "tag" : "native",
+            "ids" : [
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/3986624511"
+                },
+                {
+                    "type" : 0,
+                    "id": "ca-app-pub-3940256099942544/3986624511"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/3986624511"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/3986624511"
+                }
+            ]
+        },
+        {
+            "tag" : "open",
+            "ids" : [
+                {
+                    "id" : "ca-app-pub-3940256099942544/5575463023",
+                    "type" : 0
+                },
+                {
+                    "id" : "ca-app-pub-3940256099942544/5662855259",
+                    "type" : 0
+                },
+                {
+                    "id" : "ca-app-pub-3940256099942544/5662855259",
+                    "type" : 0
+                }
+            ],
+        },
+        {
+            "tag" : "banner",
+            "ids" : [
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/2934735716"
+                },
+                {
+                    "type" : 4,
+                    "id" : "ca-app-pub-3940256099942544/2934735716"
+                },
+                {
+                    "type" : 4,
+                    "id" : "ca-app-pub-3940256099942544/2934735716"
+                },
+                {
+                    "type" : 0,
+                    "id" : "ca-app-pub-3940256099942544/2934735716"
+                }
+            ]
+        }
+    ],
+    "helpCenter":[
+        {
+            "title" : "1.Is Super VPN safe for me?",
+            "content" : "We are using military-grade encryption to hide your internet activity from snoops. Your data is undecipherable to prying eyes while in transit. Moreover. we don't keep connection or activity logs, we never share your details with anyone. You could always reply on us to protect your online privacy.",
+            "is_unfolding" : 1,
+        },
+        {
+            "title" : "2.Will Super VPN slow down my internet?",
+            "content" : "Your internet may be slightly impacted when you connect to Super VPN. This is because your online traffic is routed through a secure encrypted tunnel where VPN encrypts your data to ensure safety and security. However. If there is a major drop-down, please change to another protocol or connect to another server. If the issue persists, please try to connect to a different Internet service provider (ISP) as your current ISP might be throttling the internet speed.",
+            "is_unfolding" : 1,
+        },
+        {
+            "title" : "3.How to find the best server?",
+            "content" : "Go to the top left corner and click the“Menu” button. Tap the Select Server and pick the country where you want the server to be.We recommend selecting the top server as it is the server that provides the fastest connection based on your current location.",
+            "is_unfolding" : 1,
+        },
+        {
+            "title" : "4.How to create an account (First Time Registration)",
+            "content" : "Launch Super VPN then click “Sign in’. Go to the bottom and click“Create an account”. Fill up the information and click \"Sign up\"Once sign-up is successful, log in with your registered email address.",
+            "is_unfolding" : 1,
+        },
+        {
+            "title" : "5.What do l get with my subscription?",
+            "content" : "Each subscription comes with access to all Super VPN apps and 6000+server locations.You can also access a wide range of online streaming services and social media sites, e.g.:Hot Star, Netflix, Pubg Mobile and etc.On top of that, a premium subscription provides you Ads-free experience and exclusive benefits like Kill Switch function and faster speed.",
+            "is_unfolding" : 1,
+        },
+        {
+            "title" : "6.How many devices can I log in to?",
+            "content" : "Each account can log in to one device.If you upgrade your account to Super VPN PREMIUM, you can log in up to 5 devices.If you upgrade your account to Super VPN PREMIUM,Plan, you can log in with many devices you want",
+            "is_unfolding" : 1,
+        },
+    ],
+}
+
