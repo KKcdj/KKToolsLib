@@ -1,0 +1,22 @@
+{
+  "name": "KKToolsLib",
+  "version": "0.0.1",
+  "summary": "A short description of KKToolsLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/empty@wefoundltd.com/KKToolsLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "empty@wefoundltd.com": "empty@wefoundltd.com"
+  },
+  "source": {
+    "git": "https://github.com/empty@wefoundltd.com/KKToolsLib.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KKToolsLib/Classes/**/*"
+}

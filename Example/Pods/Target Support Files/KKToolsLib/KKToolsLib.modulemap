@@ -1,0 +1,6 @@
+framework module KKToolsLib {
+  umbrella header "KKToolsLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
